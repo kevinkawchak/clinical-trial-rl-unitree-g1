@@ -1,0 +1,58 @@
+# Clinical Trial Drug Infusion Room - RL Training Package
+
+## Session Information
+- **Session ID**: 20260122_185241
+- **Date**: 2026-01-22 18:59:53
+- **Framework**: mjlab (MuJoCo-Warp)
+- **Hardware**: NVIDIA L4 GPU (Google Colab)
+
+## Package Contents
+
+```
+clinical_trial_outputs/
+├── checkpoints/          # PyTorch model checkpoints (.pt)
+├── onnx/                 # ONNX models for deployment
+├── tensorboard/          # TensorBoard log files
+├── charts/               # Visualization outputs
+│   ├── training_analysis.png
+│   └── interactive_dashboard.html
+├── configs/              # Training configurations
+├── training_logs/        # Raw training output logs
+├── logs/                 # Additional logs
+└── sim2real_deployment_guide.json
+```
+
+## Trained Policies
+
+| Policy | Context | ONNX File | Recommended Use |
+|--------|---------|-----------|----------------|
+| Careful Navigation | IV equipment navigation | careful_navigation_policy.onnx | Obstacle-rich areas |
+| Patient Approach | Approaching patient beds | patient_approach_policy.onnx | Near patients |
+| Equipment Transport | Carrying infusion pumps | equipment_transport_policy.onnx | Transporting equipment |
+
+## Quick Start
+
+### Sim-to-Sim Evaluation (Mac/Linux)
+```bash
+# Clone mjlab
+git clone https://github.com/mujocolab/mjlab.git
+cd mjlab && uv sync
+
+# Run evaluation
+uv run play Mjlab-Velocity-Flat-Unitree-G1 \
+    --checkpoint /path/to/checkpoints/careful_navigation_model_50.pt \
+    --num-envs 6
+
+# View at http://localhost:8080
+```
+
+### Sim-to-Real Deployment
+See `sim2real_deployment_guide.json` for complete instructions.
+
+### TensorBoard Visualization
+```bash
+tensorboard --logdir ./tensorboard
+```
+
+## License
+Apache 2.0

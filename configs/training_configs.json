@@ -1,0 +1,47 @@
+{
+  "training_01": {
+    "name": "careful_navigation",
+    "display_name": "Careful Navigation",
+    "context": "Navigating around IV stands and medical equipment",
+    "seed": 42,
+    "num_envs": 1024,
+    "max_iterations": 50,
+    "learning_rate": 0.0005,
+    "gamma": 0.99,
+    "clip_param": 0.2,
+    "entropy_coef": 0.008,
+    "action_rate_weight": -0.15,
+    "dof_limits_weight": -2.0,
+    "self_collision_weight": -2.0
+  },
+  "training_02": {
+    "name": "patient_approach",
+    "display_name": "Patient Approach",
+    "context": "Approaching patient beds with IV equipment",
+    "seed": 123,
+    "num_envs": 1024,
+    "max_iterations": 50,
+    "learning_rate": 0.0003,
+    "gamma": 0.995,
+    "clip_param": 0.15,
+    "entropy_coef": 0.005,
+    "action_rate_weight": -0.2,
+    "dof_limits_weight": -3.0,
+    "self_collision_weight": -3.0
+  },
+  "training_03": {
+    "name": "equipment_transport",
+    "display_name": "Equipment Transport",
+    "context": "Carrying/transporting infusion pump equipment",
+    "seed": 456,
+    "num_envs": 1024,
+    "max_iterations": 50,
+    "learning_rate": 0.0004,
+    "gamma": 0.997,
+    "clip_param": 0.18,
+    "entropy_coef": 0.006,
+    "action_rate_weight": -0.25,
+    "dof_limits_weight": -2.5,
+    "self_collision_weight": -2.5
+  }
+}
