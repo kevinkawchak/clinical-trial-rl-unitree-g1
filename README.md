@@ -8,7 +8,7 @@
 - **Session ID**: 20260122_185241
 - **Date**: 2026-01-22 18:59:53
 - **Framework**: mjlab (MuJoCo-Warp)
-- **Hardware**: NVIDIA L4 GPU (Google Colab)
+- **Hardware**: NVIDIA H100 GPU (Google Colab)
 
 ## Package Contents
 
