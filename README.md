@@ -46,7 +46,7 @@ cd mjlab && uv sync
 
 # Run evaluation
 uv run play Mjlab-Velocity-Flat-Unitree-G1 \
-    --checkpoint /path/to/checkpoints/careful_navigation_model_50.pt \
+    --checkpoint /path/to/checkpoints_3000/careful_navigation_model_2999.pt \
     --num-envs 6
 
 # View at http://localhost:8080
