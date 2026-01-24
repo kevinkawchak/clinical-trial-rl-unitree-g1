@@ -2,6 +2,8 @@
 
 ## Videos: [50 Iterations](https://drive.google.com/drive/folders/1pwc8j8XeNDL6_M4BnhbrU91dj9PzG0tH?usp=drive_link), [3000 Iterations](https://drive.google.com/drive/folders/16_cxfCgOeL4ncXgi-wubAzRiHwoAM5TL?usp=drive_link) 
 
+![Main](assets/Main_24Jan26.jpg)
+
 ## Session Information
 - **Session ID**: 20260122_185241
 - **Date**: 2026-01-22 18:59:53
