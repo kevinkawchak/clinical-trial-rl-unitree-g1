@@ -11,6 +11,7 @@
 - **Date**: 2026-01-22 18:59:53
 - **Framework**: mjlab (MuJoCo-Warp)
 - **Hardware**: NVIDIA L4, H100, T4
+- **1500 Iterations**: Fine-Tuned Execution
 
 ## Package Contents
 
