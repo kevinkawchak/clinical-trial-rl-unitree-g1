@@ -34,7 +34,7 @@ clinical_trial_outputs/
 |--------|---------|-----------|----------------|
 | Careful Navigation | IV equipment navigation | careful_navigation_policy.onnx | Obstacle-rich areas |
 | Patient Approach | Approaching patient beds | patient_approach_policy.onnx | Near patients |
-| Equipment Transport | Carrying infusion pumps | equipment_transport_policy.onnx | Transporting equipment |
+| Equipment Transport / Dynamic Environment | Carrying infusion pumps | equipment_transport_policy.onnx | Transporting equipment |
 
 ## Quick Start
 
