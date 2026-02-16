@@ -39,3 +39,5 @@ Future Research: Optimize sim-to-real protocols for use in real robots.
 References:
 Kevin Kawchak. (2026). kevinkawchak/clinical-trial-rl-unitree-g1: v0.1 (v0.1). Zenodo. https://lnkd.in/gDDHsnVs
 Mujocolab. "mjlab." GitHub, n.d., https://lnkd.in/gGAmhRnW
+
+- Post by Kevin Kawchak
